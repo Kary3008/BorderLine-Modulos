@@ -1,0 +1,54 @@
+.navbar li a, .navbar .navbar-brand{
+  color: black !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a{
+  color: indigo;
+  background-color: transparent !important;
+  border-bottom: 1px solid #C591FF ;
+  transition: 1s;
+}
+.navbar-dafault .navbar-toggle{
+  border-color:transparent;
+  color: #C591FF ;
+}
+.dropdown{
+  color: red;
+}
+.bg-centro{
+  background-color: rgb(23, 32, 42);
+  color:#C591FF ;
+}
+.bg-main{
+  background-color: indigo;
+}
+.bg-header-card{
+  background: #C591FF ;
+  color: black;
+
+
+}
+.carousel-item {
+  height: 90vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.card-columns .card {
+  display: inline-block;
+  width: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px !important; //esta es la parte importante para que todas tus card-img tengan la misma medida sin importar el tamaño de la imagen
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+.logo{
+  width: 100%;
+  height: 50px
+}
