@@ -1,0 +1,28 @@
+body{
+	background: #e6e6fa;
+}
+.boton{
+	margin-top: 25px;
+}
+.poli{
+	margin-top: 20px;
+
+}
+.container{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form-control{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.alin{
+	align-content: center;
+}
+div.contenedor {
+  width: 33.33%;
+  background-color: tomato
+}
+
+.contenedor {
+  margin-left: auto;
+  margin-right: auto;
+}
